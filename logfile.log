@@ -103,3 +103,41 @@
 {"message":"Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t25sm4971299pfe.76 - gsmtp","stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t25sm4971299pfe.76 - gsmtp\n    at SMTPConnection._formatError (/home/wallace/development/dhanraj/emsServer/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)\n    at SMTPConnection._actionAUTHComplete (/home/wallace/development/dhanraj/emsServer/node_modules/nodemailer/lib/smtp-connection/index.js:1523:34)\n    at SMTPConnection._responseActions.push.str (/home/wallace/development/dhanraj/emsServer/node_modules/nodemailer/lib/smtp-connection/index.js:550:26)\n    at SMTPConnection._processResponse (/home/wallace/development/dhanraj/emsServer/node_modules/nodemailer/lib/smtp-connection/index.js:942:20)\n    at SMTPConnection._onData (/home/wallace/development/dhanraj/emsServer/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)\n    at TLSSocket.SMTPConnection._onSocketData.chunk (/home/wallace/development/dhanraj/emsServer/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n    at emitOne (events.js:116:13)\n    at TLSSocket.emit (events.js:211:7)\n    at addChunk (_stream_readable.js:263:12)\n    at readableAddChunk (_stream_readable.js:250:11)\n    at TLSSocket.Readable.push (_stream_readable.js:208:10)\n    at TLSWrap.onread (net.js:607:20)","code":"EAUTH","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t25sm4971299pfe.76 - gsmtp","responseCode":535,"command":"AUTH PLAIN","level":"error","timestamp":"2020-08-22T09:10:11.844Z"}
 {"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-22T09:10:22.499Z"}
 {"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-22T09:10:22.537Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:40:39.533Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:40:39.550Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:45:05.453Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:45:05.480Z"}
+{"message":"Unexpected token } in JSON at position 39","stack":"SyntaxError: Unexpected token } in JSON at position 39\n    at JSON.parse (<anonymous>)\n    at parse (/home/wallace/development/dhanraj/emsServer/node_modules/body-parser/lib/types/json.js:89:19)\n    at /home/wallace/development/dhanraj/emsServer/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/home/wallace/development/dhanraj/emsServer/node_modules/raw-body/index.js:224:16)\n    at done (/home/wallace/development/dhanraj/emsServer/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/home/wallace/development/dhanraj/emsServer/node_modules/raw-body/index.js:273:7)\n    at emitNone (events.js:106:13)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1064:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"title\":\"aaaaa\",\n\t\"author\":\"bbb\",\n\t\n}","type":"entity.parse.failed","level":"error","timestamp":"2020-08-25T15:46:45.067Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:47:37.874Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:47:37.901Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:48:49.430Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:48:49.460Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:48:58.369Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:48:58.398Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:49:11.906Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:49:11.931Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:49:28.645Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:49:28.674Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:49:50.191Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:49:50.222Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:50:24.673Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:50:24.703Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:53:35.977Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:53:36.001Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:53:49.341Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:53:49.368Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:55:54.874Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:55:54.903Z"}
+{"message":"user is not defined","stack":"ReferenceError: user is not defined\n    at router.post (/home/wallace/development/dhanraj/emsServer/routes/admin.js:21:22)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","level":"error","timestamp":"2020-08-25T15:55:58.528Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:56:37.410Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:56:37.438Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: ems.magazines index: author_1 dup key: { : \"bbbbb\" }","op":{"_id":"5f4534ea71f7aa12b066c2f4","title":"aaaaa","author":"bbbbb","day":14,"month":5,"year":1995,"short_desc":"smhfaksfjasfasf","description":"kajsdsk ajksdj kajsgdkasjd kasgjdkasd","__v":0}}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:58:01.626Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:58:01.650Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: ems.magazines index: author_1 dup key: { : \"bbbbb\" }","op":{"_id":"5f4535106d27381376d35c15","title":"aaaaa","author":"bbbbb","day":14,"month":5,"year":1995,"short_desc":"smhfaksfjasfasf","description":"kajsdsk ajksdj kajsgdkasjd kasgjdkasd","__v":0}}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T15:58:21.664Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T15:58:21.691Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T16:03:17.338Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T16:03:17.370Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2020-08-25T16:05:32.793Z"}
+{"level":"info","message":"Connected to mongodb://localhost/ems...","timestamp":"2020-08-25T16:05:32.823Z"}

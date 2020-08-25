@@ -30,6 +30,7 @@ router.post('/', async (req, res) => {
   res.send(token);
 });
 
+
 router.post('/checkEmail', async (req, res) => {
 
   let user = await User.findOne({ email: req.body.email });
